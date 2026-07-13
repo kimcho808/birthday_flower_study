@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="탄생화, 탄생화 찾기, 생일 꽃, birthdayflower, flower">
+    <meta name="description" content="태어난 달을 적어 나의 탄생화를 알아보아요.">
+    <title>나의 탄생화는 무엇일까요?</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./script/index.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <p>The Flower of My Birth Day</p>
+            <h1>나의<em>탄생화</em>찾기</h1>
+        </div>
+        <div class="write_btn">
+            <input type="text" id="num" placeholder="태어난 달을 입력해주세요.">
+            <button id="flower_btn" type="button" onclick="popupShow()">나의 꽃과 꽃말 만나기</button>
+        </div>
+        <div class="popup">
+            <p>Birth day month 12</p>
+            <p class="mean">꽃말 : 자기애, 자존심, 외로움</p>
+            <p class="result">당신의 탄생화는<br><em>'수선화'</em>입니다.</p>
+        </div>
+        <div id="popup_bg" onclick="popupHide()"></div>
+    </main>
+</body>
+</html>
