@@ -14,3 +14,7 @@ function popupHide() {
 }
 let month;
 month = '12';
+let monthNum = document.querySelector ('#num');
+function clickNum() {
+    monthNum.value = '12'
+}

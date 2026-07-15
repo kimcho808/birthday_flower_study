@@ -17,10 +17,13 @@
             <p>The Flower of My Birth Day</p>
             <h1>나의<em>탄생화</em>찾기</h1>
         </div>
-        <div class="write_btn">
-            <input type="text" id="num" placeholder="태어난 달을 입력해주세요.">
-            <button id="flower_btn" type="button" onclick="popupShow()">나의 꽃과 꽃말 만나기</button>
-        </div>
+        <form action="#" method="get" id="btn_frm">
+            <fieldset>
+                <legend>탄생화 찾기 그룹</legend>
+                <input type="text" id="num" placeholder="태어난 달을 입력해주세요." onclick="clickNum()">
+                <button id="flower_btn" type="button" onclick="popupShow()">나의 꽃과 꽃말 만나기</button>
+            </fieldset>
+        </form>
         <div class="popup">
             <p>Birth day month 12</p>
             <p class="mean">꽃말 : 자기애, 자존심, 외로움</p>

@@ -1,5 +1,4 @@
 /* index.css */
-body {background-color: beige;}
 main {
     margin:0 auto;
     background-image:url(../images/bg.jpg);
@@ -23,26 +22,28 @@ main .title h1 {
 main .title h1 em {
     font-weight:700;
 }
-main .write_btn {
+main #btn_frm {
     display:flex;
     flex-flow:column nowrap;
     justify-content:center;
     align-items:center;
     position:absolute;
     left:51px; top:391px; 
-    gap:6px;
 }
-main .write_btn #num {
+main #btn_frm fieldset {}
+main #btn_frm fieldset legend {}
+main #btn_frm fieldset #num {
     border:1px solid #000;
     background-color:#fff;
     width:300px; height:42px;
     border-radius:8px;
     text-align:center;
+    margin-bottom:6px;
 }
-main .write_btn #num:focus {
+main #btn_frm fieldset #num:focus {
     border: 2px solid red;
 }
-main .write_btn #flower_btn {
+main #btn_frm fieldset #flower_btn {
     background-color:#000;
     color:#fff;
     font-weight:600;
