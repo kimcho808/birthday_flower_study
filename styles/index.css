@@ -51,8 +51,8 @@ main #btn_frm fieldset #flower_btn {
     border-radius:8px;
 }
 main .popup {
-    width:324px; height:256px;
-    background-color:#fff;
+    width:324px; min-height:256px;
+    background-color:rgba(255,255,255,0.95);
     border-radius:30px;
     display:flex;
     flex-flow:column nowrap;
